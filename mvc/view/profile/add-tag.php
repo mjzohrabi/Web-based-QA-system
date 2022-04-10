@@ -1,0 +1,1 @@
+<span style="display: none;" id="tag-total-<?=$newtag?>"><a href="/<?=_main_lang?>/questions/tag/<?=tag_link($newtag)?>" class="q-tag"><?= $newtag ?></a> <span onclick="remove_fav_tag(<?= $uid ?>,'<?= $newtag ?>')" class="tag-remove-btn"> <i class="fa fa-remove"></i></span></span>
